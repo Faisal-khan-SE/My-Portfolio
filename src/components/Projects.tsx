@@ -1,7 +1,16 @@
 import { motion } from 'motion/react';
-import { Globe, Layout, Gamepad2, Shield, Plane, Library, ArrowUpRight, Users } from 'lucide-react';
+import { Globe, Layout, Gamepad2, Shield, Plane, Library, ArrowUpRight, Users, ShoppingCart } from 'lucide-react';
 
 const projects = [
+  {
+    title: 'Mobile E-Commerce',
+    icon: ShoppingCart,
+    description: 'A full-stack e-commerce platform for mobile phones. Contains a React frontend, a RESTful Flask backend, and a database for inventory management.',
+    tags: ['React', 'Flask', 'Database'],
+    color: 'from-amber-500 to-orange-500',
+    iconColor: 'text-amber-400',
+    link: '#'
+  },
   {
     title: 'University Management (Discrete Structures)',
     icon: Library,
